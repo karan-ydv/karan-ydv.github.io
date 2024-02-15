@@ -9,8 +9,10 @@ Thank you for visiting my site. I am a hobbyist programmer from Ghaziabad, India
 On this site I write about the things I find interesting or the things I am currently exploring.
 
 ### Contact
-You can reach me at karanydv221[at]gmail[dot]com
+You can reach me at karanydv221@gmail.com
 
 ### Elsewhere
-- [Github](https://github.com/karan221)
+- [Github](https://github.com/karan-ydv)
 - [LinkedIn](https://linkedin.com/in/karan-ydv/)
+- [Codechef](https://codechef.com/users/karan_221)
+- [Codeforces](https://codeforces.com/profile/timetraveler)
