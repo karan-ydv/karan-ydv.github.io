@@ -16,3 +16,6 @@ You can reach me at karanydv221@gmail.com
 - [LinkedIn](https://linkedin.com/in/karan-ydv/)
 - [Codechef](https://codechef.com/users/karan_221)
 - [Codeforces](https://codeforces.com/profile/timetraveler)
+
+### Resume
+- [Resume](/resume.pdf)
