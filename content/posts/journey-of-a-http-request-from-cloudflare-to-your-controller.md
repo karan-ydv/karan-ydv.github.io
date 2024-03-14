@@ -6,7 +6,7 @@ authorTwitter = "" #do not include @
 cover = "journey.jpg"
 tags = ["web", "backend"]
 keywords = ["http", "web servers", "middlewares"]
-description = "My understanding of how production servers sit on the cloud and serve http requests"
+description = "How production servers sit on the cloud and serve http requests"
 showFullContent = false
 readingTime = true
 hideComments = false
@@ -14,7 +14,7 @@ color = "orange" #color from the theme settings
 Toc = true
 +++
 
-This is a simplified overview of how I  applications are deployed on production environments. 
+A brief overview of how applications are deployed on production environments. 
 
 
 ### What is a web server?
