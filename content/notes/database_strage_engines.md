@@ -6,7 +6,7 @@ authorTwitter = "" #do not include @
 cover = ""
 tags = ["databases", "indexes"]
 keywords = ["http", "web servers", "middlewares"]
-description = ""
+description = "Important things to remember from the chapter 'Storage and Retrieval' of Designing Data-Intensive Applications book."
 showFullContent = false
 readingTime = false
 hideComments = false
@@ -20,7 +20,7 @@ Toc = true
 
 ## Append only log seems wasteful, Why you don't update the file in place?
 * Write Efficiency - Appending and segment merging are essentially sequential write operations. Sequential writes are much more efficient in spinning disk hard drives, and in ssds too!
-* Concurrency and Crash Recovery - are simple when records are append only and immutability. Ex - You don't have to worry about Recovering from crashes due to interrupts while overriting a value.
+* Concurrency and Crash Recovery - are simple when records are append only and immutability. Ex - You don't have to worry about Recovering from crashes due to interrupts while overwriting a value.
 * Fragmentation - Merging old segments avoids the fragmentation of files over time.
 
 ## Disadvantages of hash indexes
