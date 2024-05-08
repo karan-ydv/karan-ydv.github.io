@@ -5,7 +5,6 @@ author = ""
 authorTwitter = "" #do not include @
 cover = ""
 tags = ["databases", "indexes"]
-keywords = ["http", "web servers", "middlewares"]
 description = "Important things to remember from the chapter 'Storage and Retrieval' of Designing Data-Intensive Applications book."
 showFullContent = false
 readingTime = false
