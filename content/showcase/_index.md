@@ -1,6 +1,6 @@
 ---
 title: "Showcase"
-description: "My understanding of how production servers sit on the cloud and serve http requests"
+description: ""
 hideComments: true
 ---
 
