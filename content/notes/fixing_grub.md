@@ -11,12 +11,6 @@ I got a 512GB ssd installed from a computer repair shop. He also installed a fre
 I was running manjaro linux that I had installed in a new partition. I couldn't afford to reinstall it on the ssd and configure it for days, after-all I had to return the laptop soon. I wanted the same os as it is on the ssd, so I needed to copy the root partition and update the efi partition on the ssd.
 
 I am writing this to keep a record for future as I have had to repair grub and efi partition multiple times, also I actually understood some of the tools that are used for booting stuff.
-But why do I need to learn this, why don't I just move on just use the new os? I asked. Other than the effort required to settle into a fresh install, the reasons I believe for this are - one, this is the way of the poor nerds like myself who do not have a life outside programming, we are procrastinating over the big things.
-Two - I used to believe this stuff will be required at a job and it has stayed with me. And lastly, it has been a big part of my life and it gives me joy when things finally work and I choose this over giving up control.
-This makes me wonder - do I need to give this up to grow myself to do stuff that is considered meaningful and helps achieve more recognition, wealth? There is only one solution to this I guess is to be better at this and not let it hinder other things, strictly consider this as a side hobby and prioritize important things that are called work. (I need a new way to look at the things)
-
-
-Whoosh. I just fell into a dark pit of self awareness. Let's get back to the topic.
 
 I used PartitionWizard to copy the partition (246 GB) to the ssd which was taking almost 3 hours when I had connected the external hdd to a usb2 port I cancelled it and restarted it by connecting it to the usb3 port which took a slightly longer than 1 hour. Now I needed to modify the efi partition to load grub with boot options.
 
