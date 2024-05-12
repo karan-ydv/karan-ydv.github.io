@@ -1,7 +1,8 @@
 ---
 title: "Fixing Grub"
 date: 2024-05-12T12:00:52+05:30
-draft: true
+tags: ["linux", "booting"]
+description: "How I fixed efi partition and installed grub"
 ---
 
 Recently I upgraded my friend's college laptop I was using for interviewing as I didn't have a job and I borrowed his laptop. I wanted to return the favour by upgrading his laptop to ssd.
@@ -22,3 +23,7 @@ I also learned about the contents of the efi partition - it is mounted on the lo
 
 Eventually I came across boot-repair which worked like a charm and did the job.
 https://www.baeldung.com/linux/boot-repair-live-medium
+
+Finally the partitions look like this
+![Final Partitions](/images/final_partitions.png)
+
