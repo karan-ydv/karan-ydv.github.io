@@ -18,6 +18,8 @@ I used PartitionWizard to copy the partition (246 GB) to the ssd which was takin
 I tried to directly load manjaro using grub2 disk image. But it didn't give manjaro option. I knew I would have to rebuild the grub using a live disk. I downloaded bodhi linux (1.3) gb using torrent with avg speed ~ 9 MB/S and transferred it to usb with speed 4 MB/S. 
 I use ventoy to boot multiple images with a single usb drive.
 
+![Ventoy](/images/ventoy.jpeg)
+
 I tried to rebuild the grub using update-grub and grub-install but no luck. I gained understanding of some linux commands while doing this - chroot, mount, umount, lsblk, blkid, fdisk, used to handle partitions and drives.
 I also learned about the contents of the efi partition - it is mounted on the location /boot/efi. Mainly it contains directories under a directory EFI - EFI/Boot, EFI/Manjaro, EFI/Microsoft. The Boot directory probably contains grub bootloader that appears on boot and the other OS directories contain bootx64.efi files which load the os. Ugh, too much os stuff, I wonder will it help me make a living in future?
 
